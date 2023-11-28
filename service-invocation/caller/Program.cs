@@ -1,9 +1,4 @@
-﻿//var client = new HttpClient();
-using System;
-using System.Net.Http;
-using System.Threading.Tasks;
-
-var client = new HttpClient();
+﻿var client = new HttpClient();
 var response = await client.GetAsync("https://jsonplaceholder.typicode.com/todos/1");
 
 if (response.IsSuccessStatusCode)
