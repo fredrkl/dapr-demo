@@ -1,0 +1,7 @@
+version: 1
+apps:
+  - appID: caller
+    appDirPath: ./service-invocation/caller/
+    appPort: 9081
+    daprHTTPPort: 3510
+    command: ["dotnet","run"]
