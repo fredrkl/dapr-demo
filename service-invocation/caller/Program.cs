@@ -8,10 +8,10 @@ for (int i = 1; i <= 100; i++)
   {
     var content = await response.Content.ReadAsStringAsync();
     Console.WriteLine(content);
+    Thread.Sleep(1000);
   }
   else
   {
     Console.WriteLine($"Request failed with status code {response.StatusCode}");
   }
-  Thread.Sleep(2000);
 }
