@@ -1,4 +1,5 @@
 .vscode
 **/bin/
+**/obj/
 service-invocation/caller/obj/
 **/.dapr/
